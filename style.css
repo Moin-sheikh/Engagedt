@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue',Helvetica,Arial;
+}
+
+
+.container{
+    height: 100vh;
+    background-image: url(./engadget-static-bg-v0.0.1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.form-section{
+    justify-content: space-evenly;
+    flex-direction: column; 
+    position: absolute;
+    right: 0px;
+    background-color: aliceblue;
+    height: 100vh;
+    width: 450px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.form-section img {
+    margin-top: 20px;
+    height: 42px;
+    width: 135px;
+    margin-bottom: 50px;
+   
+}
+
+.form-section h3{
+    margin-bottom: 50px;
+}
+
+.form-section input{
+    background: none;
+    margin-bottom: 50px;
+    height: 40px;
+    width: 370px;
+    border: none;
+border-bottom: 1px solid black;
+}
+
+.form-section button{
+    border: 1px solid black;
+    margin-bottom: 50px;
+    height: 40px;
+    width: 370px;
+   
+}
+
+.stay-li ul{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+   width: 400px;
+   list-style: none;
+}
+
+.stay-li{
+    margin-bottom: 50px;
+    color: #3399cc;
+    text-decoration: none;
+}
+
+.form-section p{
+    margin-bottom: 50px;
+}
+
+.next-btn{
+   background-color: #3399cc;;
+    color: white;
+   border: none;
+}
+
+.next-btn:hover{
+    background-color: #1e9ddd;
+}
+
+.google-btn img{
+    height: 20px;
+    width: 20px;
+   
+}
+
+.google-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+
+}
+
+.create-btn{
+    background: none;
+    color:#3399cc
+}
+
+
+
+.create-btn:hover{
+    border: 1.5px solid #287ba4;
+}
+.google-btn:hover{
+    border: 1.5px solid black;
+}
